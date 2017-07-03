@@ -91,7 +91,8 @@ function calcTotal()
 	
 	if (GetE("family_sponsor").checked) total+=360; 
 	if (GetE("new_year_greeting").checked) total+=36;
-  	{	var select = GetE("back_cover"); total+= 1500 * (select.options[select.selectedIndex].value);	}
+  	{	var select = GetE("back_cover_half"); total+= 1000 * (select.options[select.selectedIndex].value);	}
+	{	var select = GetE("back_cover_quarter"); total+= 600 * (select.options[select.selectedIndex].value);	}
 	{	var select = GetE("full_page"); total+= 1000 * (select.options[select.selectedIndex].value);	}
 	{	var select = GetE("half_page"); total+= 600 * (select.options[select.selectedIndex].value);	}
 	{	var select = GetE("quarter_page"); total+= 400 * (select.options[select.selectedIndex].value);	}
