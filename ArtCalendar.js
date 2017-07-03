@@ -94,7 +94,7 @@ function calcTotal()
   	{	var select = GetE("back_cover"); total+= 1500 * (select.options[select.selectedIndex].value);	}
 	{	var select = GetE("full_page"); total+= 1000 * (select.options[select.selectedIndex].value);	}
 	{	var select = GetE("half_page"); total+= 600 * (select.options[select.selectedIndex].value);	}
-	{	var select = GetE("quarter_page"); total+= 350 * (select.options[select.selectedIndex].value);	}
+	{	var select = GetE("quarter_page"); total+= 400 * (select.options[select.selectedIndex].value);	}
 	
 //	{	var select = GetE("numOfGreet"); total+= 18 * (select.options[select.selectedIndex].value);	}
 	
